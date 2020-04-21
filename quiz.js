@@ -183,6 +183,11 @@ w12.addEventListener("click",function()
 	check3();
 })
 
+//red
+
+
+
+
 //purple
 
 var c5 = document.getElementById("c5");
@@ -204,7 +209,7 @@ function check4()
 	box5.style.background="#272E34"
 	e=true;
 	score.innerHTML=count;
-	alert("Thanks for taking this quiz. Your score is :"+ count)
+	alert("Your score is :"+ count)
 	}
 	
 }
@@ -228,50 +233,4 @@ w15.addEventListener("click",function()
 {
 	count--;
 	check4();
-})
-
-//red
-
-var c4 = document.getElementById("c4");
-var w10 = document.getElementById("w10");
-var w11 = document.getElementById("w11");
-var w12 = document.getElementById("w12");
-var box4 = document.getElementById("box4");
-
-var d = false;
-
-function check3()
-{
-	if(d===false)
-	{
-	c4.style.background="#04B70F";
-	w10.style.background="#E90505"
-	w11.style.background="#E90505"
-	w12.style.background="#E90505"
-	box4.style.background="#272E34"
-	d=true;
-	score.innerHTML=count;
-	}
-	
-}
-
-c4.addEventListener("click",function()
-{
-	count++;
-	check3();
-})
-w10.addEventListener("click",function()
-{
-	count--;
-	check3();
-})
-w11.addEventListener("click",function()
-{
-	count--;
-	check3();
-})
-w12.addEventListener("click",function()
-{
-	count--;
-	check3();
 })
