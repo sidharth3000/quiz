@@ -204,7 +204,7 @@ function check4()
 	box5.style.background="#272E34"
 	e=true;
 	score.innerHTML=count;
-	alert("Your score is :"+ count)
+	alert("Thanks for taking this quiz. Your score is :"+ count)
 	}
 	
 }
