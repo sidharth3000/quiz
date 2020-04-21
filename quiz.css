@@ -76,6 +76,7 @@ header
 	padding:1%;
 	border: 2px solid white;
 	margin-right: 60%;
+	margin-left:5%;
 	transition: all .2s ease-in-out; 
 	border-radius: 20px;
 }
